@@ -15,6 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Estilos -->
     <link rel="stylesheet" href="style.css">
+    <!-- Funcionalidad -->
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -37,13 +39,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="" class="nav-link active">Contacto</a>
+                    <a href="#hero" class="nav-link active">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Ubicación</a>
+                    <a href="#galeria" class="nav-link active">Ubicación</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Experiencia</a>
+                    <a href="#experiencia" class="nav-link active">Experiencia</a>
                 </li>
             </ul>
         </div>
@@ -64,7 +66,7 @@
         </div>
     </div>
     <!--Galería y ubicación-->
-    <div class="row py-4">
+    <div class="row py-4" id="#galeria">
         <h1 class="text-center py-3">
             Ubicación y galería
         </h1>
@@ -103,8 +105,9 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+     </div>
         <!--Experiencia-->
-        <div class="container-fluid">
+        <div class="container-fluid pb-4 mb-5" id="#experiencia">
             <h1 class="text-center py-3">
                 Experiencia profesional
             </h1>
@@ -140,18 +143,19 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    20 años de experiencia
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExperience">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    El Dr. Jesús José tiene <strong> más de 20 años </strong> de experiencia ejerciendo. En su 
+                                    antigüedad ha atendido toda clase de dolencias y ha nutrido profundamente su conocimiento
+                                    y destreza. En cada diagnóstico y tratamiento que realiza vierte cada una de las enseñanzas
+                                    de sus antecedentes.
+                                    <br>
+                                    <br>
+                                    <img src="experience.jpeg" alt="Doctor con estetoscopio">
                                 </div>
                             </div>
                         </div>
@@ -159,18 +163,19 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    Educación y certificaciones
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExperience">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    El Dr. Jesús José <strong> cuenta con un historial académico impecable </strong>. Se graduó
+                                    en la escuela militar de medicina y durante sus años de servicio no ha dejado de aprender,
+                                    el doctor lo recibirá en una oficina tapidaza en sus méritos académicos que dan fé de su pasión por
+                                    atender a sus pacientes con las mejores herramientas que la medicina pueda proveer.
+                                    <br>
+                                    <br>
+                                    <img src="Escuela.jpeg" alt="Escuela militar de medicina" style="width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -179,6 +184,15 @@
             </div>
 
         </div>
+        <!-- Footer -->
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-dark" href="#">PabloJavArrVel.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
 </body>
 
 </html>

@@ -6,6 +6,7 @@
 * {
     margin:0;
     padding:0;
+    overflow-x: hidden;
 } 
 
 nav{
@@ -17,7 +18,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
+    width: 1438px;
     height: 800px;
     position: relative;
     filter: drop-shadow(0px 10px 0.75rem black);
@@ -58,3 +59,6 @@ nav{
 
 }
 
+.col{
+    min-height: 450px;
+}
