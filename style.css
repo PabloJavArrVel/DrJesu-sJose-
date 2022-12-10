@@ -58,10 +58,6 @@ nav{
 
 }
 
-.col{
-    min-height: 450px;
-}
-
 .map-responsive{
 
     padding-top: 0%;
@@ -78,7 +74,7 @@ nav{
 
 .map-responsive iframe{
 
-    left:0;
+    left: 10px;
 
     top:0;
 
